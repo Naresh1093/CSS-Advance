@@ -1,0 +1,247 @@
+.title{
+    background-color:rgb(255,187,52);
+    padding:30px;
+    margin:30px;
+    border-radius:10px;
+    text-align:center;
+}
+.title>h1{
+    color:rgb(255,136,0);
+}
+.title>p{
+    color:#fff;
+    font-size:20px;
+}
+/* COMMON CLASS */
+.common{
+    background-color:#ddd;
+    padding:30px;
+    margin:30px;
+    border:3px solid #ccc;
+}
+.cssOutLine{
+    outline:3px solid red;
+    border-radius:10px;
+}
+/*CSS OVERFLOW */
+.cssOverflow>p{
+    text-align:justify;
+    line-height:2;
+    border:2px solid #000;
+    padding:20px;
+    width:300px;
+    height:300px;
+    overflow:auto;
+}
+.cssOverflow>p:last-child{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+/* CSS WHITE-SPACE */
+.cssWhiteSpace{
+    white-space:pre;
+}
+/*CSS UNITS*/
+.cssUnits>h3:nth-child(1){
+    margin:0.5in;       /*inches*/
+}
+.cssUnits>h3:nth-child(2){
+    line-height:3cm;    /*centimeters*/
+}
+.cssUnits>h3:nth-child(3){
+    word-spacing:4mm;   /*millimeters*/
+}
+.cssUnits>h3:nth-child(4){
+    font-size:12pt;     /*points*/
+}
+.cssUnits>h3:nth-child(5){
+    font-size:1pc;      /*picas*/
+}
+.cssUnits>h3:nth-child(6){
+    font-size: 12px;    /*pixel*/
+}
+/*CSS VISIBILITY AND CSS DISPLAY*/
+.cssVisibilityDisplay>p{
+    background-color:teal;
+    padding:20px;
+    border:5px solid red;
+}
+.cssVisibilityDisplay>.cssVisibility{
+    visibility:hidden;
+}
+.cssVisibilityDisplay>.cssDisplay{
+    display:none;
+}
+/*CSS WORD-WRAP*/
+.cssWordWrap>p{
+    background-color:#808080;
+    padding:20px;
+    width:300px;
+    word-wrap: break-word;
+}
+/* css Resize */
+.cssResize{
+    overflow:auto;
+    resize:both;
+}
+/* css Offset-Outline */
+.cssOffsetOutline{
+    outline:3px solid #000;
+    outline-offset:10px;
+}
+/*CSS COLUMN COUNT*/
+.cssColumnCount{
+    text-align:justify;
+    line-height:2;
+    column-gap:50px;
+    column-rule:2px solid red;
+    column-width:200px;
+}
+/* CSS OPACITY */
+.cssOpacity>p{
+    background-color: aqua;
+    color: white;
+    padding: 20px;
+    opacity: 0.3;
+    /* filter:alpha(opacity);*/
+}
+.cssOpacity>div{
+    background-color: antiquewhite(255,228,196,0.3);
+    color: beige;
+}
+/* CSS ATTRIBUTE */
+.cssAttribute>h1{
+    color: brown;
+}
+.cssAttribute>p{
+    color: #808080;
+}
+.cssAttribute>[title]{
+    background-color: yellow;
+}
+.cssAttribute>[title]{
+    font-weight:bold;
+}
+.cssAttribute>[title]{
+    font-size: ;
+}
+
+.cssAttribute>p>abbr[id]{
+    background-color: red;
+    color: yellow;
+    }
+    .cssAttribute>form[type]{
+        width: 100%;
+        height: 25px;
+        margin-bottom: 20px;
+    }
+    .cssAttribute>form[type]{
+        bor
+       
+    }
+     /*mPSUEDO-CLASS */
+     .cssPseudoclass>h1:{
+        color: green;
+     }
+     .cssPsuedoClass>h1:hover{
+        color: #808080;
+     }
+     .cssPsuedoClass>a:link{
+        color: #fff;
+     }
+     .cssPsuedoClass>a:hover{
+        color:yellow;
+     }
+    
+    .cssPsuedoClass>a:active{
+       color: green;
+    }
+    .cssPsuedoClass>a:visited{
+        color: red;
+     }
+     /*CSS PSUEDO-ELEMENT */
+     .cssPsuedoElement>section:nth-child(1)::first-line,
+     .cssPsuedoElement>section:nth-child(2)::first-letter{
+        background-color: green;
+     }
+     .cssPsuedoElement>section:nth-child(2)::first-letter{
+        font-size: 30px;
+        font-weight: bold;
+     }
+     .cssPsuedoElement>section:nth-child(3)>h1::before{
+        content:"BEFORE H1" ;
+        background-color: yellow;
+        color: red;
+     }
+     .cssPsuedoElement>section:nth-child(4)>h1::after{
+        content:"AFTER H1" ;
+        background-color: blue;
+        color: grey;
+     }
+     /* CSS POSITION */
+     .cssPosition>h1:nth-child(1), .cssPosition>div>h1:nth-child(1){
+        background-color: teal;
+     }
+     .cssPosition>h1:nth-child(2), .cssPosition>div>h1:nth-child(2){
+        background-color: tomato;
+     }
+     .cssPosition>h1:nth-child(), .cssPosition>div>h1:nth-child(2){
+       background-color: violet;
+     }
+     .cssPosition
+
+
+     .cssPosition>.second{
+        padding: absolute;
+        top: 0%;
+        left: 0%;
+
+     }
+     .cssPosition>.div{
+        padding: absolute;
+     }
+
+
+    .cssPodition>div>.fifth
+
+
+    .cssP0sition>.eight{
+
+    }
+    /* Z-INDEX */
+    .zIndex{
+        position: relative;
+        height: 300px;
+    }
+    .zIndex>section{
+        width: 200px;
+        height: 150px;
+        padding: 20px;
+        color:#fff ;
+        position: absolute;
+    }
+    .zIndex>:first{
+        background-color: darkgoldenrod;
+        top: 10px;
+        left: 10px;
+        z-index: 1;
+    }
+    .zIndex>:second{
+        background-color: darkgreen;
+        top: 50px;
+        left: 50px;
+        z-index: 2;
+    }
+    .zIndex>:third{
+        background-color: darkred;
+        top: 100px;
+        left: 100px;
+        z-index: 3;
+    }
+    .zIndex:first:hover{
+        z-index: 4;
+    }
+    .zIndex:second:hover{
+        z-index: 4;

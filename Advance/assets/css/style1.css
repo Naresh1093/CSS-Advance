@@ -1,0 +1,44 @@
+.card{
+    background-size: cover;
+    background-color: blue;
+    border-radius:20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card-image>img{
+    height: cover;
+    width:50%;
+    border-top-left-radius:15px;
+    border-top-left-radius:15px;
+
+}
+
+.card-text{
+    background-color: gold;
+    height: 200px;
+    width: 50%;
+    text-align:center;
+}
+
+.time{
+    color: blueviolet;
+    font-size: 15px;
+    font-weight: bold;
+    margin:20px
+}
+h2{
+    color: beige;
+    font-size:15px;
+    padding:15px;
+    margin: 15px;
+
+
+}
+p{
+    color: aquamarine;
+    font-size: 15px;
+    padding: 15px;
+    margin: 15px;
+}
+
